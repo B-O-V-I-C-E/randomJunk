@@ -1,0 +1,55 @@
+.sigContainer {
+    display: flex;
+    align-items: center;
+}
+
+.gif {
+    font-size: 22px;
+    margin-right: 1em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.employeeName {
+    font-family: degular, arial;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.jobTitle {
+    font-family: degular, arial;
+    background: #eee;
+    padding: 4px 8px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.contactInfo {
+    margin-bottom: 8px;
+}
+
+.contactInfo a {
+    position: relative;
+    font-family: degular, arial;
+    color: #0c0c0c;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.contactInfo a + a {
+    margin-left: 15px;
+}
+
+.contactInfo a + a::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: #ccc;
+}
